@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E0F5ACA-456D-4519-89BB-3F640B3029EE}</ProjectGuid>
+    <ProjectGuid>{E0C06AA1-15CC-4DE5-861E-0BD607E011D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Array</RootNamespace>
-    <AssemblyName>Array</AssemblyName>
+    <RootNamespace>Maths</RootNamespace>
+    <AssemblyName>Maths</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinarySearch.cs" />
-    <Compile Include="FindKCLosestElements.cs" />
-    <Compile Include="FirstAndLastPositionInArray.cs" />
-    <Compile Include="MaxSellProfit.cs" />
-    <Compile Include="MoveZerosToLeft.cs" />
+    <Compile Include="FibonaaciNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReverseArray.cs" />
-    <Compile Include="RotateArray.cs" />
-    <Compile Include="SearchRotatedArray.cs" />
-    <Compile Include="SlidingWindowMaximum.cs" />
-    <Compile Include="SmallestCommonNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

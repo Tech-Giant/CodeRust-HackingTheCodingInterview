@@ -10,6 +10,18 @@ namespace Array
     {
         static void Main(string[] args)
         {
+            int[] maxArr = new int[] {7, 6, 4, 3, 1};
+
+            MaxSellProfit maxProfit = new MaxSellProfit();
+            maxProfit.MaxProfit_OneTransaction(maxArr);
+
+            int[] arr4 = new int[] { 0, 1, 0, 3, 12 };
+            MoveZerosToLeft moveZeros =new MoveZerosToLeft();
+            moveZeros.move_zeros_to_left_in_array(new int[]{ 0, 1, 0, 3, 12 });
+            foreach (var i in arr4)
+            {
+                Console.WriteLine(i.ToString() + ", ");
+            }
             int[] arr = new int[]{1,2,3,4,5,6,7};
             ReverseArray rArray = new ReverseArray();
             rArray.Reverse(arr, 0, 6);
